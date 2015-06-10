@@ -27,6 +27,7 @@
   Try this Fiddle - http://jsfiddle.net/vaibhavslab/jgsLa6eg/
 
   Reference - 
+  
   https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators
 
 
@@ -37,7 +38,7 @@
   http://stackoverflow.com/questions/5223/length-of-javascript-object-ie-associative-array<br/>
   http://stackoverflow.com/questions/5533192/how-to-get-object-length<br/>
   http://css-tricks.com/snippets/javascript/get-object-size/<br/>
-  http://jsperf.com/get-length-of-js-object<br/>
+  http://jsperf.com/get-length-of-js-object
 
 
 - Describe OOPS in Java Script.
@@ -50,7 +51,7 @@
   http://ejohn.org/apps/learn/#75<br/>
   http://help.adobe.com/en_US/Director/11.5/UsingScripting/WSc3ff6d0ea77859461172e0811d64c1a1b3-7fdb.html<br/>
   http://phrogz.net/JS/classes/OOPinJS.html<br/>
-  http://www.javascriptkit.com/javatutors/oopjs.shtml<br/>
+  http://www.javascriptkit.com/javatutors/oopjs.shtml
 
 
 - What are Closures?
@@ -60,19 +61,7 @@
   Reference -
   
   http://stackoverflow.com/questions/111102/how-do-javascript-closures-work/111111<br/>
-  http://ejohn.org/apps/learn/#48<br/>
-
-
-- Explain Hoisting in Java Script.
-
-  Try this Fiddle - http://jsfiddle.net/vaibhavslab/t7t9rhnx/
-  
-  Reference -
-  
-  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var<br/>
-  http://code.tutsplus.com/tutorials/javascript-hoisting-explained--net-15092<br/>
-  http://www.w3schools.com/js/js_hoisting.asp<br/>
-
+  http://ejohn.org/apps/learn/#48
 
 - What is W3C event model?
 
@@ -87,7 +76,7 @@
   
   http://programmers.stackexchange.com/questions/147587/the-box-model-internet-explorer-vs-w3c<br/>
   http://quirksmode.org/css/user-interface/boxsizing.html<br/>
-  http://www.designedbyaturtle.co.uk/2012/traditional-box-model-vs-w3c-box-model/<br/>
+  http://www.designedbyaturtle.co.uk/2012/traditional-box-model-vs-w3c-box-model/
 
 
 - Describe scoping in Java Script.
@@ -95,14 +84,26 @@
   Reference -
   
   http://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/<br/>
-  http://javascriptissexy.com/javascript-variable-scope-and-hoisting-explained/<br/>
+  http://javascriptissexy.com/javascript-variable-scope-and-hoisting-explained/
+
+
+- Explain Hoisting in Java Script.
+
+  Try this Fiddle - http://jsfiddle.net/vaibhavslab/t7t9rhnx/
+  
+  Reference -
+  
+  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var<br/>
+  http://code.tutsplus.com/tutorials/javascript-hoisting-explained--net-15092<br/>
+  http://www.w3schools.com/js/js_hoisting.asp
+
 
 - Differentiate between typeof and instanceof.
 
   Reference -
   
   http://bonsaiden.github.io/JavaScript-Garden/#types.typeof<br/>
-  http://bonsaiden.github.io/JavaScript-Garden/#types.instanceof<br/>
+  http://bonsaiden.github.io/JavaScript-Garden/#types.instanceof
 
 
 - What is the advantage of using Sprites?
@@ -112,7 +113,7 @@
   http://stackoverflow.com/questions/1191961/what-are-the-advantages-of-using-css-sprites-in-web-applications<br/>
   http://www.dtelepathy.com/blog/graveyard/are-css-sprites-really-faster<br/>
   http://www.smashingmagazine.com/2010/03/26/css-sprites-useful-technique-or-potential-nuisance/<br/>
-  http://css-tricks.com/css-sprites/<br/>
+  http://css-tricks.com/css-sprites/
 
 
 - What is the difference between live, delegate and on in jquery? 
@@ -124,7 +125,7 @@
   http://www.codeproject.com/Articles/662949/Differences-Among-Bind-Live-Delegate-Trigger-in-jQ<br/>
   http://www.alfajango.com/blog/the-difference-between-jquerys-bind-live-and-delegate/<br/>
   http://www.jquerybyexample.net/2010/08/bind-vs-live-vs-delegate-function.html<br/>
-  http://code.tutsplus.com/tutorials/quick-tip-the-difference-between-live-and-delegate--net-9841<br/>
+  http://code.tutsplus.com/tutorials/quick-tip-the-difference-between-live-and-delegate--net-9841
 
 
 - What are self executing anonymous functions?
@@ -135,7 +136,7 @@
   
   http://markdalgleish.com/2011/03/self-executing-anonymous-functions/<br/>
   http://mahtonu.wordpress.com/2010/05/19/self-executing-functions-in-javascript/<br/>
-  http://esbueno.noahstokes.com/post/77292606977/self-executing-anonymous-functions-or-how-to-write<br/>
+  http://esbueno.noahstokes.com/post/77292606977/self-executing-anonymous-functions-or-how-to-write
 
 
 - Differentiate between window.onload and onDocumentReady?
@@ -153,7 +154,7 @@
   
   http://hangar.runway7.net/javascript/difference-call-apply<br/>
   http://designpepper.com/blog/drips/invoking-javascript-functions-with-call-and-apply<br/>
-  http://pivotallabs.com/how-i-remember-the-difference-between-function-call-and-function-apply/<br/>
+  http://pivotallabs.com/how-i-remember-the-difference-between-function-call-and-function-apply/
   
 
 - What are callbacks and how can we implement them?
@@ -161,7 +162,7 @@
   Reference -
   
   http://recurial.com/programming/understanding-callback-functions-in-javascript/<br/>
-  http://dreamerslab.com/blog/en/javascript-callbacks/<br/>
+  http://dreamerslab.com/blog/en/javascript-callbacks/
 
 
 - What are various ways to optimize Java Script?
@@ -177,7 +178,7 @@
   http://oreilly.com/server-administration/excerpts/even-faster-websites/writing-efficient-javascript.html#the_switch_statement<br/>
   http://jonraasch.com/blog/10-javascript-performance-boosting-tips-from-nicholas-zakas<br/>
   http://www.smashingmagazine.com/2012/11/05/writing-fast-memory-efficient-javascript/<br/>
-  http://ericleads.com/2013/04/youre-optimizing-the-wrong-things/<br/>
+  http://ericleads.com/2013/04/youre-optimizing-the-wrong-things/
 
 - Find the final colour of text.
 
@@ -197,7 +198,7 @@
   
   http://perfectionkills.com/understanding-delete/<br/>
   http://stackoverflow.com/questions/208105/how-to-remove-a-property-from-a-javascript-object<br/>
-  http://jsperf.com/delete-vs-undefined-vs-null/16<br/>
+  http://jsperf.com/delete-vs-undefined-vs-null/16
 
 
 - What are the differences between GET and POST?
