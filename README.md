@@ -360,3 +360,18 @@
     var user = User("John", 30);
     console.log(user);
   ```
+
+- What will be the output?
+  
+  ```
+  var s = "test";         
+  s.len = 4;              
+  var t = s.len;          
+  console.log(t); 
+  ```
+  
+  When you run this code, the value of t is `undefined`. The second line of code creates a temporary String object,     sets its len property to 4, and then discards that object. The third line creates a new String object from the        original (unmodified) string value and then tries to read the len property. This property does not exist, and the     expression evaluates to undefined. This code demonstrates that strings, numbers, and boolean values behave like       objects when you try to read the value of a property (or method) from them. But if you attempt to set the value       of a property,that attempt is silently ignored: the change is made on a temporary object and does not persist.
+  
+  Try this Fiddle - http://jsfiddle.net/vaibhavslab/ufwe3kjL/
+
+  
