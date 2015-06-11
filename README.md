@@ -341,4 +341,22 @@
   - Implied globals created without var (regardless if created inside functions) can be deleted.
   This shows that implied globals are technically not real variables, but they are properties of the global object. Properties can be deleted with the delete operator whereas variables cannot.
 
+- What will be the output of the two cases shown below?
 
+  ```
+    function User(name, age) {
+      this.name = name;
+      this.age = age;
+    }
+    var user = new User("John", 30);
+    console.log(user);
+  ```
+  
+  ```
+    function User(name, age) {
+      this.name = name;
+      this.age = age;
+    }
+    var user = User("John", 30);
+    console.log(user);
+  ```
