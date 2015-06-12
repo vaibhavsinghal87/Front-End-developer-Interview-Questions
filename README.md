@@ -390,11 +390,14 @@
 - Find the output?
 
   ```
-  function User() {
+  function User() { }
+  User.prototype.name = function(){ 
+    console.log("John Nash");
   }
+  
   var user = new User();
-  User.prototype.name = function(){ console.log("ss");}
   user.name();
+  
   User.prototype = {};
   user.name();
   ```
