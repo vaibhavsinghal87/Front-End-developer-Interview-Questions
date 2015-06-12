@@ -386,3 +386,17 @@
   
   Though it may appear that obj2.a++ should (via delegation) look up and just increment the obj1.a property itself in   place, instead the ++ operation corresponds to obj2.a = obj2.a + 1. 
   If you wanted to increment obj1.a, the only proper way is obj1.a++.
+
+- Find the output?
+
+  ```
+  function User() {
+  }
+  var user = new User();
+  User.prototype.name = function(){ console.log("ss");}
+  user.name();
+  User.prototype = {};
+  user.name();
+  ```
+
+  Try this Fiddle - http://jsfiddle.net/vaibhavslab/c7ckv5pc/
