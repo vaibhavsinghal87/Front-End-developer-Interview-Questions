@@ -375,3 +375,14 @@
   Try this Fiddle - http://jsfiddle.net/vaibhavslab/ufwe3kjL/
 
   
+- Find the output?
+
+  ```
+  var obj1 = { a: 2 };
+  var obj2 = Object.create(obj1);
+  obj2.a++;
+  console.log(obj1.a);
+  ```
+  
+  Though it may appear that obj2.a++ should (via delegation) look up and just increment the obj1.a property itself in   place, instead the ++ operation corresponds to obj2.a = obj2.a + 1. 
+  If you wanted to increment obj1.a, the only proper way is obj1.a++.
