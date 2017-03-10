@@ -420,7 +420,7 @@
   Try this Fiddle - http://jsfiddle.net/vaibhavslab/c7ckv5pc/
   
 - Find the output?
-```
+  ```
   var myObject = {
       func1: function() {
          console.log(this); // logs myObject
