@@ -418,3 +418,33 @@
   ```
 
   Try this Fiddle - http://jsfiddle.net/vaibhavslab/c7ckv5pc/
+  
+- Find the output?
+```
+  var myObject = {
+      func1: function() {
+         console.log(this); // logs myObject
+         var func2 = function() {
+              console.log(this) // logs window, and will do so from this point on
+              var func3 = function() {
+                  console.log(this); // logs window, as it’s the head object
+              }();
+         }();
+     }
+  }
+  myObject.func1();
+  ```
+  
+- Find the output?
+
+  ```
+  var objectFoo = {same: 'same'};
+  var objectBar = {same: 'same'};
+  // logs false, JS does not care that they are identical and of the same object type
+  console.log(objectFoo === objectBar);
+  // how complex objects are measured for equality
+  var objectA = {foo: 'bar'};
+  var objectB = objectA;
+  console.log(objectA === objectB); // logs true because they reference the same object
+  ```
+
