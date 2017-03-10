@@ -434,6 +434,7 @@
   }
   myObject.func1();
   ```
+  The good news is that this will be fixed in ECMAScript 5.
   
 - Find the output?
 
