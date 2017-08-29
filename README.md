@@ -340,7 +340,7 @@
      4 - 4 + "4"
   ```
   
-  In expressions involving numeric and string values with the + operator, JavaScript converts numeric values to strings. For example, consider the following statements:
+  In expressions involving numeric and string values with the + operator, JavaScript converts numeric values to strings. The expression is evaluated from left to right. For example, consider the following statements:
   ```
   x = "The answer is " + 42 // "The answer is 42"
   y = 42 + " is the answer" // "42 is the answer"
