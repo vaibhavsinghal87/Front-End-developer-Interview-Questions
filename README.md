@@ -463,7 +463,7 @@
 
   Try this Fiddle - https://jsfiddle.net/vaibhavslab/7vg4teqt/
 
-- How can you mimic const behaviour from in ES5?
+- How can you mimic const behaviour in ES5?
 
   By combining writable:false and configurable:false, you can essentially create a constant (cannot be changed, redefined, or deleted) as an object property, like:
 
