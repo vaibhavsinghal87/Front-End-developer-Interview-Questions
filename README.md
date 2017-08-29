@@ -497,5 +497,7 @@
   console.log(person1.favorites);    
   console.log(person2.favorites); 
   ```
+  
+  The favorites property is defined on the prototype, which means person1.favorites and person2.favorites point to the same array. Any   values you add to either person’s favorites will be elements in that array on the prototype. That may not be the behavior that you    actually want, so it’s important to be very careful about what you define on the prototype.
 
   Try this Fiddle - https://jsfiddle.net/vaibhavslab/8qxpefmx/
