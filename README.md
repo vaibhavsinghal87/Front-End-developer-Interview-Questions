@@ -479,23 +479,23 @@
 - Find the output?
 
   ```
-    function Person(name) {
-        this.name = name;
-    }
+  function Person(name) {
+      this.name = name;
+  }
 
-    Person.prototype.sayName = function() {
-        console.log(this.name);
-    };
-    Person.prototype.favorites = [];
+  Person.prototype.sayName = function() {
+      console.log(this.name);
+  };
+  Person.prototype.favorites = [];
 
-    var person1 = new Person("Nicholas");
-    var person2 = new Person("Greg");
+  var person1 = new Person("Nicholas");
+  var person2 = new Person("Greg");
 
-    person1.favorites.push("pizza");
-    person2.favorites.push("quinoa");
+  person1.favorites.push("pizza");
+  person2.favorites.push("quinoa");
 
-    console.log(person1.favorites);    
-    console.log(person2.favorites); 
+  console.log(person1.favorites);    
+  console.log(person2.favorites); 
   ```
 
   Try this Fiddle - https://jsfiddle.net/vaibhavslab/8qxpefmx/
