@@ -451,51 +451,51 @@
 
 - Find the output?
 
-```
-var myArray = [ "foo", 42, "bar" ];
+  ```
+  var myArray = [ "foo", 42, "bar" ];
 
-myArray["3"] = "baz";
+  myArray["3"] = "baz";
 
-myArray.length; // 4
+  myArray.length; // 4
 
-myArray[3]; // "baz"
-```
+  myArray[3]; // "baz"
+  ```
 
-Try this Fiddle - https://jsfiddle.net/vaibhavslab/7vg4teqt/
+  Try this Fiddle - https://jsfiddle.net/vaibhavslab/7vg4teqt/
 
 - How can you mimic const behaviour from in ES5?
 
-By combining writable:false and configurable:false, you can essentially create a constant (cannot be changed, redefined, or deleted) as an object property, like:
+  By combining writable:false and configurable:false, you can essentially create a constant (cannot be changed, redefined, or deleted) as an object property, like:
 
-```
-var myObject = {};
-Object.defineProperty( myObject, "FAVORITE_NUMBER", {
-    value: 42,
-    writable: false,
-    configurable: false
-} );
-```
+  ```
+  var myObject = {};
+  Object.defineProperty( myObject, "FAVORITE_NUMBER", {
+      value: 42,
+      writable: false,
+      configurable: false
+  } );
+  ```
 
 - Find the output?
 
-```
-  function Person(name) {
-      this.name = name;
-  }
+  ```
+    function Person(name) {
+        this.name = name;
+    }
 
-  Person.prototype.sayName = function() {
-      console.log(this.name);
-  };
-  Person.prototype.favorites = [];
+    Person.prototype.sayName = function() {
+        console.log(this.name);
+    };
+    Person.prototype.favorites = [];
 
-  var person1 = new Person("Nicholas");
-  var person2 = new Person("Greg");
+    var person1 = new Person("Nicholas");
+    var person2 = new Person("Greg");
 
-  person1.favorites.push("pizza");
-  person2.favorites.push("quinoa");
+    person1.favorites.push("pizza");
+    person2.favorites.push("quinoa");
 
-  console.log(person1.favorites);    
-  console.log(person2.favorites); 
-```
+    console.log(person1.favorites);    
+    console.log(person2.favorites); 
+  ```
 
-Try this Fiddle - https://jsfiddle.net/vaibhavslab/8qxpefmx/
+  Try this Fiddle - https://jsfiddle.net/vaibhavslab/8qxpefmx/
