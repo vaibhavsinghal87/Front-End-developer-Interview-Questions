@@ -509,3 +509,42 @@
   The favorites property is defined on the prototype, which means person1.favorites and person2.favorites point to the same array. Any   values you add to either person’s favorites will be elements in that array on the prototype. That may not be the behavior that you    actually want, so it’s important to be very careful about what you define on the prototype.
 
   Try this Fiddle - https://jsfiddle.net/vaibhavslab/8qxpefmx/
+
+
+- What is meant by cascading in CSS?
+
+  Reference -
+
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade<br/>
+  https://www.thoughtco.com/what-does-cascade-mean-3466872<br/>
+  https://www.thoughtco.com/what-does-cascading-mean-3466947
+  
+- What is the difference between two code formats below?
+
+  ```
+  return
+  {
+      status: true
+  };
+  ```
+  ```
+  return {
+      status: true
+  };
+  ```
+  
+- Create a singleton User function?
+
+  ```
+  var User = (function(){
+    var obj;
+    if(obj !== undefined){
+      return;
+    }
+    obj = new Object();
+    return obj;
+  })();
+  console.log(User);
+  ```
+  Try this Fiddle - https://jsfiddle.net/vaibhavslab/x1au3c61/
+  
