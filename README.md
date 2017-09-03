@@ -566,20 +566,20 @@
   ```
   Try this fiddle - https://jsfiddle.net/vaibhavslab/ndzsswbf/
   
--  How can you do augmenting in Jaascript?
+-  How can you do augmenting in Javascript?
 
-  ```
-  Function.prototype.method = function (name, func) {
-      if (!this.prototype[name]) {
-          this.prototype[name] = func;
-          return this;
-      }
-  };
-  Number.method('integer', function (  ) {
-      return Math[this < 0 ? 'ceil' : 'floor'](this);
-  });
-  console.log(5.4.integer())
-  ```
-  
-  Try this fiddle - https://jsfiddle.net/vaibhavslab/gtv9a7tf/
+   	```
+	Function.prototype.method = function (name, func) {
+	    if (!this.prototype[name]) {
+		this.prototype[name] = func;
+		return this;
+	    }
+	};
+	Number.method('integer', function (  ) {
+	    return Math[this < 0 ? 'ceil' : 'floor'](this);
+	});
+	console.log(5.4.integer());
+   	```
+
+   Try this fiddle - https://jsfiddle.net/vaibhavslab/gtv9a7tf/
   
