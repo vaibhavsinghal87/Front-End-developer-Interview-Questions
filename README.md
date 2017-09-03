@@ -548,3 +548,38 @@
   ```
   Try this Fiddle - https://jsfiddle.net/vaibhavslab/x1au3c61/
   
+- Can you add a create function to Object?
+
+  ```
+  function Person(){
+	  this.name = 'Vaibhav Singhal';
+  }
+  if (typeof Object.create !== 'function') {
+     Object.create = function (o) {
+         var F = function () {};
+         F.prototype = o;
+         return new F();
+     };
+  }
+  var obj = Object.create(Person);
+  console.log(typeof obj)
+  ```
+  Try this fiddle - https://jsfiddle.net/vaibhavslab/ndzsswbf/
+  
+-  How can you do augmenting in Jaascript?
+
+  ```
+  Function.prototype.method = function (name, func) {
+      if (!this.prototype[name]) {
+          this.prototype[name] = func;
+          return this;
+      }
+  };
+  Number.method('integer', function (  ) {
+      return Math[this < 0 ? 'ceil' : 'floor'](this);
+  });
+  console.log(5.4.integer())
+  ```
+  
+  Try this fiddle - https://jsfiddle.net/vaibhavslab/gtv9a7tf/
+  
