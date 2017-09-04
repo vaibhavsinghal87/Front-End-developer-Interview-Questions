@@ -584,3 +584,19 @@
 
    Try this fiddle - https://jsfiddle.net/vaibhavslab/gtv9a7tf/
   
+- What is the difference between two snippets below?
+
+	```
+	function MyConstructor() {}
+	MyConstructor.prototype = {};
+	var myobject = new MyConstructor();
+	console.log(myobject.constructor)
+	```
+	```
+	function MyConstructor1() {}
+	var myobject = new MyConstructor1();
+	MyConstructor1.prototype = {};
+	console.log(myobject.constructor)
+	```
+	
+	Try this fiddle - https://jsfiddle.net/vaibhavslab/zuod2nen/
