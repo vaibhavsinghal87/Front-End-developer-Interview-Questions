@@ -52,7 +52,8 @@
   http://help.adobe.com/en_US/Director/11.5/UsingScripting/WSc3ff6d0ea77859461172e0811d64c1a1b3-7fdb.html<br/>
   http://phrogz.net/JS/classes/OOPinJS.html<br/>
   http://www.javascriptkit.com/javatutors/oopjs.shtml<br/>
-  https://zeekat.nl/articles/constructors-considered-mildly-confusing.html
+  https://zeekat.nl/articles/constructors-considered-mildly-confusing.html</br>
+  http://jonathancreamer.com/object-literals-and-prototypes-in-javascript/
 
 
 - What are Closures?
