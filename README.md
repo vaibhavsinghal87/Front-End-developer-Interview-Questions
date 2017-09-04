@@ -53,7 +53,8 @@
   http://phrogz.net/JS/classes/OOPinJS.html<br/>
   http://www.javascriptkit.com/javatutors/oopjs.shtml<br/>
   https://zeekat.nl/articles/constructors-considered-mildly-confusing.html</br>
-  http://jonathancreamer.com/object-literals-and-prototypes-in-javascript/
+  http://jonathancreamer.com/object-literals-and-prototypes-in-javascript/</br>
+  https://javascript.info/function-prototype
 
 
 - What are Closures?
