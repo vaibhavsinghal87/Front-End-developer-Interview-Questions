@@ -602,3 +602,7 @@
 	```
 	
 	Try this fiddle - https://jsfiddle.net/vaibhavslab/zuod2nen/
+	
+- What is the difference between SVG and canvas?
+
+- What is a pure function?
